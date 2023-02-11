@@ -1,0 +1,8 @@
+#!/bin/bash
+#List the files in current workin_directory
+ls -la 
+#List the files in the parent_directory
+ls -la ..
+#List the files in the boot_directory
+ls -la /boot
+
