@@ -1,4 +1,4 @@
 #!/bin/bash
-sort | uniq -c | awk '{$1=$1};1' | grep -w " 1 " | awk '{print $2}'
+sort list | uniq -u 
 
 
